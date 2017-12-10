@@ -6,7 +6,7 @@
 
 .footer-right {
 	color: #fff;
-	padding-top: 1%
+	padding-top: 2%
 }
 
 
@@ -43,3 +43,32 @@
 }
 
 /*------Footer END------*/
+
+/*------PARALLAX-----*/
+
+/*.myparallax { 
+   
+    background-image: url(images/homePage/1.jpg);
+
+    height: 100vh; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} NOT WORKING */
+
+/*-----PARALLAX END-----*/
+
+/*-----MAIN BODY-----*/
+
+
+.separator-line {
+	width: 80%;
+}
+
+.intro {
+	padding: 2%;
+}
+
+/*-----MAIN BODY END-----*/
