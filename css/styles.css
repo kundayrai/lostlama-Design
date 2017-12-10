@@ -3,7 +3,7 @@
 
 }
 .center-logo{
-	margin: 1%;
+	padding: 1%;
 
 }
 .brand-logo-nav-image{
@@ -16,8 +16,9 @@
 
 .navbar{
 	box-shadow: none;
-	box-shadow: 0 2px 2px 0px rgba(0,0,0,.2);
+	box-shadow: 0 2px 2px 0px rgba(0,0,0,.5);
 	padding: 0;
+	background-color: transparent !important;
 }
 .nav-item{
 	
@@ -26,7 +27,7 @@
 
 }
 .navbar-light .navbar-nav .nav-link {
-    color: #000;
+    color: #fff;
     font-weight: bold;
 }
 ul.navbar-nav{
@@ -34,3 +35,14 @@ ul.navbar-nav{
 	margin: auto;
 
 }
+
+.header-video-area{
+	height: 100vh;
+	
+	background-image: url("images/image1.jpg");
+
+}
+.home-page-header-content{
+
+}
+
