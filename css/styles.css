@@ -39,7 +39,7 @@ ul.navbar-nav{
 .header-video-area{
 	height: 100vh;
 	
-	background-image: url("images/image1.jpg");
+	background-image: url('images/homePage/1.jpg');
 
 }
 .home-page-header-content{
@@ -95,9 +95,9 @@ ul.navbar-nav{
 
 /*------PARALLAX-----*/
 
-/*.myparallax { 
-   
-    background-image: url(images/homePage/1.jpg);
+.parallax {
+
+	background-image: url("images/homePage/1.jpg");
 
     height: 100vh; 
 
@@ -105,7 +105,7 @@ ul.navbar-nav{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-} NOT WORKING */
+}
 
 /*-----PARALLAX END-----*/
 
