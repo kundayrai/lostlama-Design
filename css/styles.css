@@ -1,3 +1,52 @@
+.brand-logo-area {
+	text-align: center;
+
+}
+.center-logo{
+	padding: 1%;
+
+}
+.brand-logo-nav-image{
+
+	width: 150px;
+
+
+
+}
+
+.navbar{
+	box-shadow: none;
+	box-shadow: 0 2px 2px 0px rgba(0,0,0,.5);
+	padding: 0;
+	background-color: transparent !important;
+}
+.nav-item{
+	
+	margin-right: 2%;
+	margin-left: 1%;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+ul.navbar-nav{
+	width: 85%;
+	margin: auto;
+
+}
+
+.header-video-area{
+	height: 100vh;
+	
+	background-image: url("images/image1.jpg");
+
+}
+.home-page-header-content{
+
+}
+
+
 
 /*------Footer CSS------*/
 .footer {
@@ -72,3 +121,4 @@
 }
 
 /*-----MAIN BODY END-----*/
+
