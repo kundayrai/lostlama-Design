@@ -11,8 +11,6 @@
 
 	width: 150px;
 
-
-
 }
 .fixed{
 	position: fixed;
@@ -27,9 +25,8 @@
 	background-color: transparent !important;
 	
 }
-.colored-nav{
+.fixed.colored-nav{
 	background-color: #2196f3;
-	opacity: 0.3;
 }
 .nav-item{
 	
@@ -44,8 +41,8 @@
 ul.navbar-nav{
 	width: 85%;
 	margin: auto;
-
 }
+
 
 .header-video-area{
 	height: 100vh;
@@ -57,7 +54,6 @@ ul.navbar-nav{
 	padding-top: 10%;
 
 }
-
 
 
 /*------Footer CSS------*/
@@ -132,11 +128,6 @@ ul.navbar-nav{
 	padding: 2%;
 }
 
-<<<<<<< HEAD
-.how-it-works {
-
-}
-
 .overlay-text {
 	vertical-align: middle;
 	margin-top: 5%;
@@ -153,9 +144,6 @@ ul.navbar-nav{
 	padding: 50px;
 }
 
-=======
-
->>>>>>> origin/Himanshu
 .customer-photo-area{
 	padding: 1%;
     text-align: center;
@@ -177,30 +165,5 @@ ul.navbar-nav{
         margin :0.5%;        
 }
 
-<<<<<<< HEAD
-/*-----MAIN BODY END-----*/
-=======
 /*-----MAIN BODY END-----*/
 
-.how-it-works {
-
-}
-
-.overlay-text {
-	vertical-align: middle;
-	margin-top: 5%;
-}
-
-.outer-div
-{
-	padding: 30px;
-	text-align: center;
-}
-.inner-div
-{
-	display: inline-block;
-	padding: 50px;
-}
-
-
->>>>>>> origin/Himanshu
