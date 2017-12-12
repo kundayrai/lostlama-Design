@@ -10,8 +10,11 @@
 
   <!-- Material Design for Bootstrap CSS -->
   <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.0.0-beta.4/dist/css/bootstrap-material-design.min.css" integrity="sha384-R80DC0KVBO4GSTw+wZ5x2zn2pu4POSErBkf8/fSFhPXHxvHJydT0CSgAP2Yo2r4I" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 
   <link rel="stylesheet" type="text/css" href="css/styles.css">
+   <link href="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css" rel="stylesheet">
 
 </head>
 
@@ -22,6 +25,7 @@
 
 
     <div class="parallax" style="background-image: url('images/homePage/1.jpg');">
+      <div class="fixed">
       <div class="brand-logo-area">
         <div class="center-logo">
           <img class="brand-logo-nav-image" 
@@ -88,7 +92,9 @@
 
         <!-- /Nav Bar -->
 
-        <div class="home-page-header-content">
+      </div>
+
+        <div id="startchange" class="home-page-header-content">
           Let us plan your 3-day weekend.
         </div>
       </div>
@@ -103,6 +109,47 @@
     </div>
 
     <!--MAIN BODY END-->
+    <div class="customer-photo-area content-body">
+      <h2>Gallery</h2>
+
+     <div id="lightgallery" class="demo-gallery">
+           
+                <a href="images/homePage/gallery/customer1.jpg"><img src="images/homePage/gallery/customer1.jpg" class="customer-photo-image"></a>
+       
+
+   <!--    </div> 
+      <div class="customer-individual-photo"> -->
+        <a href="images/homePage/gallery/customer2.jpg"><img src="images/homePage/gallery/customer2.jpg" class="customer-photo-image"></a>
+      <!-- </div>
+      
+      
+      <div class="customer-individual-photo"> -->
+       <a href="images/homePage/gallery/customer3.jpg"><img src="images/homePage/gallery/customer3.jpg" class="customer-photo-image"></a>
+      <!-- </div>
+      <div class="customer-individual-photo"> -->
+        <a href="images/homePage/gallery/customer4.jpg"><img src="images/homePage/gallery/customer4.jpg" class="customer-photo-image"></a>
+     <!--  </div>
+      <div class="customer-individual-photo"> -->
+       <a href="images/homePage/gallery/customer5.jpg"><img src="images/homePage/gallery/customer5.jpg" class="customer-photo-image"></a>
+      <!-- </div>
+      
+      <div class="customer-individual-photo"> -->
+       <a href="images/homePage/gallery/customer6.jpg"><img src="images/homePage/gallery/customer6.jpg" class="customer-photo-image"></a>
+    <!--   </div>
+      <div class="customer-individual-photo"> -->
+        <a href="images/homePage/gallery/customer7.jpg"><img src="images/homePage/gallery/customer7.jpg" class="customer-photo-image"></a>
+    <!--   </div>
+      <div class="customer-individual-photo"> -->
+       <a href="images/homePage/gallery/homePage/gallery/customer8.jpg"><img src="images/homePage/gallery/customer8.jpg" class="customer-photo-image"></a>
+     <!--  </div> -->
+
+      <a href="images/homePage/gallery/customer9.jpg"><img src="images/homePage/gallery/customer9.jpg" class="customer-photo-image"></a>
+       <a href="images/homePage/gallery/customer10.jpg"><img src="images/homePage/gallery/customer10.jpg" class="customer-photo-image"></a>
+        <a href="images/homePage/gallery/customer11.jpg"><img src="images/homePage/gallery/customer11.jpg" class="customer-photo-image"></a>
+         <a href="images/homePage/gallery/customer12.jpg"><img src="images/homePage/gallery/customer12.jpg" class="customer-photo-image"></a>
+            
+        </div>
+      </div>
 
     <!--FOOTER-->
 
@@ -170,6 +217,19 @@
 
     <!--FOOTER END-->
 
+
+        <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+        <script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
+        <script src="https://cdn.rawgit.com/sachinchoolur/lg-pager.js/master/dist/lg-pager.js"></script>
+        <script src="https://cdn.rawgit.com/sachinchoolur/lg-autoplay.js/master/dist/lg-autoplay.js"></script>
+        <script src="https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js"></script>
+        <script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
+        <script src="https://cdn.rawgit.com/sachinchoolur/lg-hash.js/master/dist/lg-hash.js"></script>
+        <script src="https://cdn.rawgit.com/sachinchoolur/lg-share.js/master/dist/lg-share.js"></script>
+        <script>
+            lightGallery(document.getElementById('lightgallery'));
+        </script>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -177,7 +237,9 @@
     <script src="https://unpkg.com/bootstrap-material-design@4.0.0-beta.4/dist/js/bootstrap-material-design.js" integrity="sha384-3xciOSDAlaXneEmyOo0ME/2grfpqzhhTcM4cE32Ce9+8DW/04AGoTACzQpphYGYe" crossorigin="anonymous"></script>
     <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
 
-    <script src="js/scripts.js"></script>
+    <script>
+
+    </script>
   </body>
     
 </html>
