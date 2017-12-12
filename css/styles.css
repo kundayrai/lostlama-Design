@@ -27,8 +27,8 @@
 
 }
 .navbar-light .navbar-nav .nav-link {
-    color: #fff;
-    font-weight: bold;
+	color: #fff;
+	font-weight: bold;
 }
 ul.navbar-nav{
 	width: 85%;
@@ -78,6 +78,10 @@ ul.navbar-nav{
 	color: #BBDEFB;
 }
 
+.text-primary-color {
+	color: #2196F3;
+}
+
 .footer-bottom {
 	padding-bottom: 2%;
 }
@@ -95,16 +99,12 @@ ul.navbar-nav{
 
 /*------PARALLAX-----*/
 
-.parallax {
+.parallax { 
 
-	background-image: url("images/homePage/1.jpg");
-
-    height: 100vh; 
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 /*-----PARALLAX END-----*/
@@ -116,9 +116,28 @@ ul.navbar-nav{
 	width: 80%;
 }
 
-.intro {
+.content-box {
 	padding: 2%;
 }
 
-/*-----MAIN BODY END-----*/
+.how-it-works {
 
+}
+
+.overlay-text {
+	vertical-align: middle;
+	margin-top: 5%;
+}
+
+.outer-div
+{
+	padding: 30px;
+	text-align: center;
+}
+.inner-div
+{
+	display: inline-block;
+	padding: 50px;
+}
+
+/*-----MAIN BODY END-----*/
