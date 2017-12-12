@@ -132,6 +132,7 @@ ul.navbar-nav{
 	padding: 2%;
 }
 
+<<<<<<< HEAD
 .how-it-works {
 
 }
@@ -152,6 +153,9 @@ ul.navbar-nav{
 	padding: 50px;
 }
 
+=======
+
+>>>>>>> origin/Himanshu
 .customer-photo-area{
 	padding: 1%;
     text-align: center;
@@ -173,4 +177,30 @@ ul.navbar-nav{
         margin :0.5%;        
 }
 
+<<<<<<< HEAD
 /*-----MAIN BODY END-----*/
+=======
+/*-----MAIN BODY END-----*/
+
+.how-it-works {
+
+}
+
+.overlay-text {
+	vertical-align: middle;
+	margin-top: 5%;
+}
+
+.outer-div
+{
+	padding: 30px;
+	text-align: center;
+}
+.inner-div
+{
+	display: inline-block;
+	padding: 50px;
+}
+
+
+>>>>>>> origin/Himanshu
