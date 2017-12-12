@@ -5,6 +5,7 @@
 .center-logo{
 	padding: 1%;
 
+
 }
 .brand-logo-nav-image{
 
@@ -13,12 +14,22 @@
 
 
 }
+.fixed{
+	position: fixed;
+	width: 100%;
+}
+
 
 .navbar{
 	box-shadow: none;
 	box-shadow: 0 2px 2px 0px rgba(0,0,0,.5);
 	padding: 0;
 	background-color: transparent !important;
+	
+}
+.colored-nav{
+	background-color: #2196f3;
+	opacity: 0.3;
 }
 .nav-item{
 	
@@ -43,6 +54,7 @@ ul.navbar-nav{
 
 }
 .home-page-header-content{
+	padding-top: 10%;
 
 }
 
@@ -138,6 +150,27 @@ ul.navbar-nav{
 {
 	display: inline-block;
 	padding: 50px;
+}
+
+.customer-photo-area{
+	padding: 1%;
+    text-align: center;
+    margin-top: 2%;
+
+}
+.customer-photo-area h2{
+	font-size: -webkit-xxx-large;
+}
+.customer-individual-photo{
+	 display: inline-block;
+    margin: 1%;
+
+}
+.customer-photo-image{
+	width: 230px;
+
+    	height:230px ;
+        margin :0.5%;        
 }
 
 /*-----MAIN BODY END-----*/

@@ -10,12 +10,15 @@
 
   <!-- Material Design for Bootstrap CSS -->
   <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.0.0-beta.4/dist/css/bootstrap-material-design.min.css" integrity="sha384-R80DC0KVBO4GSTw+wZ5x2zn2pu4POSErBkf8/fSFhPXHxvHJydT0CSgAP2Yo2r4I" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 
   <link rel="stylesheet" type="text/css" href="css/slick.css"/>
 
   <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 
   <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link href="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css" rel="stylesheet">
 
 </head>
 
@@ -25,120 +28,163 @@
   <header>
 
     <div class="parallax" style="background-image: url('images/homePage/1.jpg'); height: 100vh;">
-      <div class="brand-logo-area">
-        <div class="center-logo">
-          <img class="brand-logo-nav-image" 
-          src="images/logo.png" />
+      <div class="fixed">
+        <div class="brand-logo-area">
+          <div class="center-logo">
+            <img class="brand-logo-nav-image" 
+            src="images/logo.png" />
+          </div>
+        </div>
+
+        <!-- Nav Bar -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">How it Works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Survey</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Services
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+        <!-- /Nav Bar -->
+
+        <div class="home-page-header-content outer-div">
+          <br>
+          <div class="inner-div"><h3 class="display-3 text-center text-light overlay-text">Let us plan your 3-day weekend.</h3></div>
+        </div>
+    </header>
+
+    <div class="content-box">
+      <hr class="separator-line">
+      <h3 class="display-3 text-center text-primary-color">What is LostLama?</h3>
+      <br>
+      <p class="lead mx-auto col-md-10">Pro an dicat antiopam cotidieque, tale vocent postulant eum at. Essent argumentum deterruisset mea in. No sea dicit dissentiet definitionem. Duo eripuit volutpat definitionem id. Ne usu modo graecis albucius, an eam invidunt quaerendum, vel ex detraxit instructior. Eleifend periculis nec ex, diam meliore ut mel, an inermis corpora mei</p>
+    </div>
+
+    <div class="content-box">
+      <hr class="separator-line">
+      <h3 class="display-3 text-center text-primary-color">How it Works</h3>
+      <br>
+      <p class="lead mx-auto col-md-10">Pro an dicat antiopam cotidieque, tale vocent postulant eum at. Essent argumentum deterruisset mea in. No sea dicit dissentiet definitionem. Duo eripuit volutpat definitionem id. Ne usu modo graecis albucius, an eam invidunt quaerendum, vel ex detraxit instructior. Eleifend periculis nec ex, diam meliore ut mel, an inermis corpora mei</p>
+    </div>
+
+
+    <div class="parallax" style="background-image: url('images/homePage/2.jpg'); height: 50vh;">
+      <div class="outer-div">
+        <div class="inner-div">
+          <h3 class="display-3 text-center text-light overlay-text">Are you ready for a suprise?</h3>
         </div>
       </div>
+    </div>
 
-      <!-- Nav Bar -->
+    <div class="customer-photo-area content-body">
+      <h2>Gallery</h2>
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div id="lightgallery" class="demo-gallery">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">How it Works</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Survey</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Testimonials</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">FAQs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Shop</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
-            </li>
+        <a href="images/homePage/gallery/customer1.jpg"><img src="images/homePage/gallery/customer1.jpg" class="customer-photo-image"></a>
 
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Services
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Login</a>
-            </li>
-          </ul>
+   <!--    </div> 
+    <div class="customer-individual-photo"> -->
+      <a href="images/homePage/gallery/customer2.jpg"><img src="images/homePage/gallery/customer2.jpg" class="customer-photo-image"></a>
+      <!-- </div>
+      
+      
+        <div class="customer-individual-photo"> -->
+         <a href="images/homePage/gallery/customer3.jpg"><img src="images/homePage/gallery/customer3.jpg" class="customer-photo-image"></a>
+      <!-- </div>
+        <div class="customer-individual-photo"> -->
+          <a href="images/homePage/gallery/customer4.jpg"><img src="images/homePage/gallery/customer4.jpg" class="customer-photo-image"></a>
+     <!--  </div>
+      <div class="customer-individual-photo"> -->
+       <a href="images/homePage/gallery/customer5.jpg"><img src="images/homePage/gallery/customer5.jpg" class="customer-photo-image"></a>
+      <!-- </div>
+      
+        <div class="customer-individual-photo"> -->
+         <a href="images/homePage/gallery/customer6.jpg"><img src="images/homePage/gallery/customer6.jpg" class="customer-photo-image"></a>
+    <!--   </div>
+      <div class="customer-individual-photo"> -->
+        <a href="images/homePage/gallery/customer7.jpg"><img src="images/homePage/gallery/customer7.jpg" class="customer-photo-image"></a>
+    <!--   </div>
+      <div class="customer-individual-photo"> -->
+       <a href="images/homePage/gallery/homePage/gallery/customer8.jpg"><img src="images/homePage/gallery/customer8.jpg" class="customer-photo-image"></a>
+       <!--  </div> -->
+
+       <a href="images/homePage/gallery/customer9.jpg"><img src="images/homePage/gallery/customer9.jpg" class="customer-photo-image"></a>
+       <a href="images/homePage/gallery/customer10.jpg"><img src="images/homePage/gallery/customer10.jpg" class="customer-photo-image"></a>
+       <a href="images/homePage/gallery/customer11.jpg"><img src="images/homePage/gallery/customer11.jpg" class="customer-photo-image"></a>
+       <a href="images/homePage/gallery/customer12.jpg"><img src="images/homePage/gallery/customer12.jpg" class="customer-photo-image"></a>
+
+     </div>
+   </div>
+
+   <!--MAIN BODY END-->
+
+   <!--FOOTER-->
+
+   <footer class="footer">
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col mx-auto footer-left">
+          <label class="text-light h3">ContactUs</label>
+          <p class="text-secondary-color">
+            1579 Mulberry Lane <br> 
+            Jupiter, Florida<br>
+            33458<br>
+            561-744-9814<br>
+            abcd@xyz.com
+          </p>
         </div>
-      </nav>
-
-      <!-- /Nav Bar -->
-
-      <div class="home-page-header-content outer-div">
-        <br>
-        <div class="inner-div"><h3 class="display-3 text-center text-light overlay-text">Let us plan your 3-day weekend.</h3></div>
-      </div>
-    </div>
-  </header>
-
-<div class="content-box">
-    <hr class="separator-line">
-    <h3 class="display-3 text-center text-primary-color">What is LostLama?</h3>
-    <br>
-    <p class="lead mx-auto col-md-10">Pro an dicat antiopam cotidieque, tale vocent postulant eum at. Essent argumentum deterruisset mea in. No sea dicit dissentiet definitionem. Duo eripuit volutpat definitionem id. Ne usu modo graecis albucius, an eam invidunt quaerendum, vel ex detraxit instructior. Eleifend periculis nec ex, diam meliore ut mel, an inermis corpora mei</p>
-  </div>
-
-<div class="content-box">
-  <hr class="separator-line">
-  <h3 class="display-3 text-center text-primary-color">How it Works</h3>
-  <br>
-  <p class="lead mx-auto col-md-10">Pro an dicat antiopam cotidieque, tale vocent postulant eum at. Essent argumentum deterruisset mea in. No sea dicit dissentiet definitionem. Duo eripuit volutpat definitionem id. Ne usu modo graecis albucius, an eam invidunt quaerendum, vel ex detraxit instructior. Eleifend periculis nec ex, diam meliore ut mel, an inermis corpora mei</p>
-</div>
-
-
-<div class="parallax" style="background-image: url('images/homePage/2.jpg'); height: 50vh;">
-  <div class="outer-div">
-    <div class="inner-div">
-      <h3 class="display-3 text-center text-light overlay-text">Are you ready for a suprise?</h3>
-    </div>
-  </div>
-</div>
-
-<!--MAIN BODY END-->
-
-<!--FOOTER-->
-
-<footer class="footer">
-  <div class="container-fluid">
-    <div class="row">
-
-      <div class="col mx-auto footer-left">
-        <label class="text-light h3">ContactUs</label>
-        <p class="text-secondary-color">
-          1579 Mulberry Lane <br> 
-          Jupiter, Florida<br>
-          33458<br>
-          561-744-9814<br>
-          abcd@xyz.com
-        </p>
-      </div>
 
       <div class="col footer-mid">
 
@@ -156,7 +202,6 @@
             <a class="nav-link text-light" href="#">Contact Us</a>
           </li>
         </ul>
-
       </div>
 
       <div class="col footer-right">
@@ -172,22 +217,34 @@
         </form>
       </div>
     </div>
-    <hr class="footer-line">
-  </div>
-
-  <div class="row">
-    <div class="social mx-auto ">
-      <a href="#"><img src="images/icons/facebook.png" class="social-icons"></a>
-      <a href="#"><img src="images/icons/twitter.png" class="social-icons"></a>
-      <a href="#"><img src="images/icons/instagram.png" class="social-icons"></a>
-      <a href="#"><img src="images/icons/youtube.png" class="social-icons"></a>
     </div>
-  </div>
+    <hr class="footer-line">
 
-  <div class="footer-bottom text-secondary-color text-center"><img src="images/icons/copyright-icon.png"> Copyright LostLama</div>
-</footer>
+    <div class="row">
+      <div class="social mx-auto ">
+        <a href="#"><img src="images/icons/facebook.png" class="social-icons"></a>
+        <a href="#"><img src="images/icons/twitter.png" class="social-icons"></a>
+        <a href="#"><img src="images/icons/instagram.png" class="social-icons"></a>
+        <a href="#"><img src="images/icons/youtube.png" class="social-icons"></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom text-secondary-color text-center"><img src="images/icons/copyright-icon.png"> Copyright LostLama</div>
+  </footer>
 
 <!--FOOTER END-->
+
+<script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+<script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
+<script src="https://cdn.rawgit.com/sachinchoolur/lg-pager.js/master/dist/lg-pager.js"></script>
+<script src="https://cdn.rawgit.com/sachinchoolur/lg-autoplay.js/master/dist/lg-autoplay.js"></script>
+<script src="https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js"></script>
+<script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
+<script src="https://cdn.rawgit.com/sachinchoolur/lg-hash.js/master/dist/lg-hash.js"></script>
+<script src="https://cdn.rawgit.com/sachinchoolur/lg-share.js/master/dist/lg-share.js"></script>
+<script>
+  lightGallery(document.getElementById('lightgallery'));
+</script>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -199,6 +256,6 @@
 <script type="text/javascript" src="js/slick.min.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
 
-</body>
 
+</body>
 </html>
